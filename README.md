@@ -2,6 +2,7 @@
 
 
 > [!NOTE]
+>  This repo is for Ubuntu only.
 > Kenshi recently stated that they will work with GOLang instead of TypeScript and started testing it. It is a repo created for those who want to test it.
 <br>
 If you are ready to test the Kenshi Go version with Docker, let's get started.
@@ -72,10 +73,7 @@ unzip unchained-go-docker.zip
 # Let's go into the resulting file with Unzip
 cd unchained-go-docker
 
-Let's copy the file named conf.worker.yaml.template in the file as conf.worker.yaml with the # cp command.
-cp conf.worker.yaml.template conf.worker.yaml
-
-# Let's go into the file we created
+# Let's copy the file named conf.worker.yaml.template in the file as conf.worker.yaml with the cp command.
 cp conf.worker.yaml.template conf.worker.yaml
 
 # Let's edit the content of the file we copied with the following command
