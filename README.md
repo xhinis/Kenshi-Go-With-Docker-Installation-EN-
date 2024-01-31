@@ -82,7 +82,7 @@ nano conf.worker.yaml
 
 > [!WARNING]
 > When we enter Nano, the first part we need to change is the "name" part. If you are running Typescript, please enter the same name and be sure to add the secretKey and publicKey in your typescript at the end of the file.<br><br>
-> If you are running Kenshi for the first time (even if you have never run Typescript), you can just edit the name section and exit.<br><br>
+> If you are running Kenshi for the first time, you can generate it with TypeScript and get the secretKey, since the Kenshi Go Docker version does not have the generate feature yet. <br><br>
 > After editing the required fields, you can exit the editor by pressing CTRL + X, Y and Enter respectively.
 
 ```
