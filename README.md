@@ -71,12 +71,11 @@ wget https://github.com/KenshiTech/unchained/releases/download/v0.11.0-alpha.5/u
 unzip unchained-v0.11.0-alpha.5-docker.zip
 
 # Navigate into the extracted directory
-cd unchained-v0.11.0-alpha.5-docker
-
-# Copy the template configuration file
-cp conf.worker.yaml.template conf.worker.yaml
+cd unchained-v0.11.0-alpha.5-docker/conf
 
 # Edit the copied configuration file using nano
+nano secrets.worker.yaml
+
 nano conf.worker.yaml
 
 ```
