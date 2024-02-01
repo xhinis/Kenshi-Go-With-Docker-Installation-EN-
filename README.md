@@ -64,20 +64,21 @@ Output
 ## Kenshi Unchained Go Version Installation
 
 ```
-# Let's download our file with wget
-wget https://github.com/KenshiTech/unchained/releases/download/go/unchained-go-docker.zip
+# Download the new release with wget
+wget https://github.com/KenshiTech/unchained/releases/download/v0.11.0-alpha.5/unchained-v0.11.0-alpha.5-docker.zip
 
-# Let's unzip the file we downloaded
-unzip unchained-go-docker.zip
+# Unzip the downloaded file
+unzip unchained-v0.11.0-alpha.5-docker.zip
 
-# Let's go into the resulting file with Unzip
-cd unchained-go-docker
+# Navigate into the extracted directory
+cd unchained-v0.11.0-alpha.5-docker
 
-# Let's copy the file named conf.worker.yaml.template in the file as conf.worker.yaml with the cp command.
+# Copy the template configuration file
 cp conf.worker.yaml.template conf.worker.yaml
 
-# Let's edit the content of the file we copied with the following command
+# Edit the copied configuration file using nano
 nano conf.worker.yaml
+
 ```
 
 > [!WARNING]
